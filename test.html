@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #test_modal{
+            /* display: none; */
+        }
+    </style>
+</head>
+<body>  
+
+<button type="button" id="buy" onclick="showModal()">Show</button>
+    <hr>
+    <div id="test_modal">
+        <button onclick="hideModal()">x</button>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab alias quae, hic minus ratione possimus, expedita eum sapiente ex illo id vel, ipsam quasi. Pariatur maxime saepe voluptates reiciendis vero.</p>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $("#buy").click(function () {
+        //    var a = 4;
+        //    if (a == 5) {
+        //      alert("if");
+        //      $('#myModal').modal('show');
+        //    }
+        //    else {
+            $('#myModal').modal('hide');
+        //    }
+        
+        });
+        </script>
+</body>
+</html>

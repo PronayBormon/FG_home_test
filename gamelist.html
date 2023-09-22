@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Game List </title>
+    <!-- bootstrap5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- owl carousel css  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- fontsawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- styles css  -->
+     <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/gamelist.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/navbar.css">
+
+
+
+  </head>
+  <body >
+    <!-- preloader here  -->
+    <div class="loader" id="preloader">
+        <div class="loader__circle"></div>
+        <div class="loader__circle"></div>
+        <div class="loader__circle"></div>
+        <div class="loader__circle"></div>
+        <div class="loader__circle"></div>
+    </div>
+    
+    <!-- navbar  start here   -->
+    <div class="row ">
+        <div class="nav_bar" style="z-index: 9999;">
+            <div class="row">
+                <div class="col-12">
+                    <!-- nav for desktop view  -->
+                    <div id="mySidenav" class="sidenav">
+                        <div class="head  align-items-center">
+                            <div class="row">
+                                <a href="profileinfo.html" class="text-secondary text-decoration-none">
+                                    <div class="text-start d-flex align-items-center ms-2 profile_img"><img src="images/profile-female.jpg" class="rounded-circle" width="40px" height="35px" alt=""><p class="m-0 ms-1">user123</p></div>
+                                </a>
+                                <div>
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-6"><a href="pricing.html"><img src="images/dimond.png" width="" alt=""> 5000</a></div>
+                                <div class="col-6"><a href="deposite.html"><img src="images/dollar.png" width="" alt=""> 5000</a></div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="body">
+                            <a href="index.html"><img src="images/reels-60.png"  alt=""> Reels</a>
+                            <a href="livestream.html"><img src="images/live-streaming.png" alt="">Stream</a>
+                            <a href="ranking.html"><img src="images/trophy.png" alt="">Ranking</a>
+                            <a href="gamelist.html"><img src="images/casino (1).png" alt="">Games</a>
+                            <a href="wallet.html"><img src="images/wallet.png" alt="">Wallet</a>
+                            <a href="referal.html"><img src="images/refferal-transformed-removebg-preview.png" alt="">Reffer</a>
+                            <a href="affiliate.html"><img src="images/affiliate-60.png" alt="">Affiliate</a>
+                            <a href="deposite.html"><img src="images/money-bag-green60.png" alt="">Deposite</a>                                    
+                            <a href="withdraw.html"><img src="images/cash_in.png" alt="">withdraw</a>
+                            <!-- <a href="profile.html"><img src="images/user.png" alt="">Profile</a> -->
+                            <a href="login.html"><img src="images/user.png" alt="">Login</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class=" nav_profile">           
+                            <div class="me-auto">
+                            <a href="index.html" style="text-decoration: none;"  class="text-dark bg-transparent">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </a>
+                            </div>                 
+                        <!-- settings button  -->
+                        <div class="ms-auto text-end ">
+                            
+                            <a class="nav-link"   onclick="openNav()">
+                                <div class="grid_dots">
+                                    <div class="dots">
+                                        <span></span><span></span><span></span>
+                                    </div><div class="dots">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                    <div class="dots">
+                                        <span></span><span></span><span></span>   
+                                    </div>                                        
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- space  -->
+    <div class="" style="height: 54px;"></div>
+    <!-- navbar end here  -->
+
+    <!-- banner part start here  -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="owl-carousel owl-bannar">
+                <div class="bannar">
+                    <a href="#"><img src="images/slideOne.jpg" class="img-fluid" alt=""></a>
+                </div>
+                <div class="bannar">
+                    <a href="#"><img src="images/slideTwo.jpg" class="img-fluid" alt=""></a>
+                </div>
+                <div class="bannar">
+                    <a href="#"><img src="images/sliderThree.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bannar part end here  -->
+
+    <!-- sound part start here  -->
+    <div class="container-fluid">
+        <div class="sound">
+            <div class="volume">
+                <i class="fa-solid fa-volume-high"></i></div>
+            <div>
+                <p><marquee behavior="scroll"  scrollamount="5" direction="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, neque! </marquee></p>
+            </div>
+            <div>
+                <a href="#" class=""><i class="fa-solid fa-list"></i>Lorem</a>
+            </div>
+        </div>
+    </div>
+    <!-- sound part end here  -->
+
+    <!-- profile and function part start here  -->
+    <div class="container-fluid">
+        <div class="profile_func">
+            <div class="row">
+                <div class="col-4">
+                    <div class="profile">
+                        <div>
+                            <h1>Jhone due</h1>
+                        </div>
+                        <div>
+                            <p>$ 00.00 <button><i class="fa-solid fa-arrows-rotate rotate"></i></button></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-8"> -->
+                    <div class="col-8 d-flex justify-content-center align-items-center">    
+                        <div class="s_width">
+                            <a href="deposite.html"  style="text-decoration: none;">
+                                <div class="option op_withdraw">
+                                    <img src="images/money-bag-green60.png" alt="">
+                                    <h3>Deposite</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="s_width">
+                            <a href="withdraw.html" style="text-decoration: none;">
+                                <div class="option op_reward">                                
+                                    <img src="images/cash_in.png" alt="">
+                                    <h3>width</h3>
+                                </div> 
+                            </a>                       
+                        </div>
+                        <div class="s_width">
+                            <a href="referal.html" class=" " style="text-decoration: none;">
+                                <div class="option op_refer">
+                                    <img src="images/gift-box.png" alt="">
+                                    <h3>Refer</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="s_width" >
+                            <a href="pricing.html" style="text-decoration: none;">
+                                <div class="option op_mail">
+                                    <img src="images/dimond.png"  alt="">
+                                    <h3>Dimond</h3>
+                                </div>
+                            </a>
+                        </div>
+                                    <!-- </div> -->
+                                <!-- </div> -->
+                    </div>
+
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- profile and functions part end here  -->
+
+    <!-- gaming part start here  -->
+    <div class="container-fluid ">
+        <div class="row ">
+            <div class="col-3 scroll mt-3"> <!--cat part start here -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="cat sub_cat active">
+                            <a href="#">
+                                <img src="images/fire.png" alt="">
+                                <h4>Popular</h4>
+                            </a>
+                        </div>
+                        <div class="cat sub_cat">
+                            <a href="#">
+                                <img src="images/chips.png" alt="">
+                                <h4>Casino</h4>
+                            </a>
+                        </div>
+                        <div class="cat sub_cat">
+                            <a href="#">
+                                <img src="images/card.png" alt="">
+                                <h4>Teenpatti</h4>
+                            </a>
+                        </div>
+                        <div class="cat sub_cat">
+                            <a href="#">
+                                <img src="images/jackpot.png" alt="">
+                                <h4>jackpot</h4>
+                            </a>
+                        </div>
+                        <div class="cat sub_cat">
+                            <a href="#">
+                                <img src="images/football.png" alt="">
+                                <h4>Soccer</h4>
+                            </a>
+                        </div>
+                        <div class="cat sub_cat">
+                            <a href="#">
+                                <img src="images/fire.png" alt="">
+                                <h4>Popular</h4>
+                            </a>
+                        </div>
+                        <div class="cat sub_cat">
+                            <a href="#">
+                                <img src="images/chips.png" alt="">
+                                <h4>Casino</h4>
+                            </a>
+                        </div>
+                        <div class="cat sub_cat">
+                            <a href="#">
+                                <img src="images/card.png" alt="">
+                                <h4>Teenpatti</h4>
+                            </a>
+                        </div>
+                        <div class="cat sub_cat">
+                            <a href="#">
+                                <img src="images/jackpot.png" alt="">
+                                <h4>jackpot</h4>
+                            </a>
+                        </div>
+                        <div class="cat sub_cat">
+                            <a href="#">
+                                <img src="images/football.png" alt="">
+                                <h4>Soccer</h4>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div> <!--cat part end here -->
+            <div class="col-9 "> 
+                <!--Games part start here -->
+                
+                <div class="row mt-3 px-3" style="border-radius: 5px;">
+                    <div class="game_icon text-center py-2" style="background-image: linear-gradient(to bottom, rgba(239,229,253,1) 0%,rgba(195,169,243,1) 100%);">
+                        <h6 class="m-0">Teenpatti</h6>
+                    </div>
+                </div>
+                <div class="scrollTwo mt-3">
+                    <div class=" game_part_new mt-0">
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/Joker_Poker.png" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/baccarat_512.jpg" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/gaming guide web_BACCARAT 580.jpg" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/game icon/original/baccarat/baccarat(1).jpg" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/game icon/original/baccarat/baccarat(2).jpg" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/game icon/original/baccarat/baccarat(3).jpg" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/game icon/original/baccarat/baccarat(4).jpg" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/game icon/original/bingo/bingo(1).jpeg" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/game icon/original/baccarat/baccarat(1).png" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/game icon/original/bingo/bingo(2).jpg" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/game icon/original/blackjack/blackjack(1).svg" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/game icon/original/blackjack/blackjack(1).jpg" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        <div class="game_pic">
+                            <a href="#">
+                                <img src="images/game icon/original/blackjack/blackjack(2).jpg" loading="lazy" class="img-fluid" alt="">
+                            </a>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- gaming part end here  -->
+
+        <!-- -=========footer start ========-  -->
+    <div class="container"><div class="row "><div class="col-md-12" style="height: 70px;"></div></div></div>
+    <footer class="">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 d-flex">
+                    <div class="d-flex justify-content-center align-items-center" style="width: 20%;">
+                        <a href="index.html" class="text-center"><img src="images/reels-60.png" class="img-fluid" alt=""><br><p>Reels</p></a>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center" style="width: 20%;">
+                        <a href="hostlist.html" class="text-center"><img src="images/live-streaming.png" class="img-fluid" alt=""><br><p>stream</p></a>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center" style="width: 20%;">
+                        <a href="ranking.html" class="text-center"><img src="images/trophy.png" class="img-fluid" alt=""><br><p>Rank</p></a>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center" style="width: 20%;">
+                        <a href="gamelist.html" class="text-center"><img src="images/casino (1).png" class="img-fluid" alt=""><br><p>Games</p></a>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center" style="width: 20%;">
+                        <a href="profile.html" class="text-center"><img src="images/user.png" class="img-fluid" alt=""><br><p>User</p></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end here  -->
+    
+       
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/navjs.js"></script>
+    <script src="js/preloader.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-bannar").owlCarousel({
+                items:1,
+                loop:true,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true
+            });
+        });
+    </script>
+    <script>
+        $(".rotate").click(function () {
+            $(this).toggleClass("down");
+        })
+
+        $(document).ready(function(){
+            $(".sub_cat").click(function(){
+                $(".sub_cat").removeClass("active");
+                $(this).addClass("active");
+            })
+        });
+    </script>
+  </body>
+</html>
